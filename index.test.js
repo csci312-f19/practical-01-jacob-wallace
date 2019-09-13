@@ -22,7 +22,7 @@ describe('Determines age based on birthday', () => {
     expect(birthday.howOld(new Date('01 Jan 2018'))).toBe(0);
   });
 
-  test('Returns 1 if birthday is in a years time', () => {
+  test('Returns -1 if birthday is in a years time', () => {
     expect(birthday.howOld(new Date('01 Jan 2019'))).toBe(-1);
   });
 });
