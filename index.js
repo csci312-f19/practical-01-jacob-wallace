@@ -1,4 +1,4 @@
-const moment = require('moment'); // eslint-disable-line
+const moment = require('moment');
 
 const howOld = function howOld(birthday) {
   return moment().diff(birthday, 'years');
